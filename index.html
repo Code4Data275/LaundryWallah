@@ -4,108 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laundry Wallah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--Header Section-->
+    <!--Header section-->
     <header>
-        <!--Title of the Website-->
-        <h1 id="title"><center>Welcome to Laundry Wallah</center></h1>
+        <!--Logo-->
+        <img src="logo.jpg" alt="logo" class="logo">
+        <!--Navigation links-->
+        <nav>
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="box">
+            <button class="user-btn">Username</button>
+        </div>
     </header>
-    <hr>
-    <!--Main Section-->
     <main>
-        <!--About Us-->
-        <section id="about-us">
-            <article>
-                <h2>About us</h2>
-                <p>
-                    At <strong>Laundry Wallah</strong>, we believe laundry should be simple, affordable and stress-free. Life is already busy your clothes shouldn't add to it. 
-                    That's why we built a modern, reliable laundry service that combines convenience, quality, and care in every wash. We started Laundry Wallah 
-                    with a single mission: <strong>to make laundry effortless for everyone</strong>. Whether you are a student, working professional, or a busy 
-                    family, we ensure your clothes get the attention they deserve. From washing and ironing to dry cleaning and doorstep pickup, every service is 
-                    designed to save your time and deliver freshness.             
-                </p>
-            </article>
-        </section>
-        <!--Image-->
-        <section id="image">
-            <center><img src="laundry-image.webp" alt="laundry" width="450px" height="300px"></center>
-        </section>
-        <hr>
-        <!--Our Services-->
-        <section id="services">
-           <article>
-                <h2>Our Services</h2>
-                <ol>
-                    <li>Washing and Drying</li>
-                    <li>Ironing and Folding</li>
-                    <li>Dry Cleaning</li>
-                    <li>Stain Removal</li>
-                    <li>Express Services</li>
-                    <li>Special Garment Care</li>
-                </ol>
-           </article>
-        </section>
-        <!--Price List-->
-        <section id="pricing">
-            <h2>Price List</h2>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Service</th>
-                        <th>Price</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Washing and Drying</td>
-                        <td>₹10.00</td>
-                    </tr>
-                    <tr>
-                        <td>Ironing and Folding</td>
-                        <td>₹5.00</td>
-                    </tr>
-                    <tr>
-                        <td>Dry Cleaning</td>
-                        <td>₹12.00</td>
-                    </tr>
-                    <tr>
-                        <td>Stain Removal</td>
-                        <td>₹15.00</td>
-                    </tr>
-                    <tr>
-                        <td>Express Services</td>
-                        <td>₹30.00</td>
-                    </tr>
-                    <tr>
-                        <td>Special Garment Care</td>
-                        <td>₹20.00</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <hr>
-        <!--Booking Section-->
-        <section id="booking">
-            <h2>Book Now</h2>
-            <form>
-                <label for="fullName">Name: </label>
-                <input type="text" name="fullName" required>
-                <br><br>
-                <label for="email">Email: </label>
-                <input type="email" name="email" required>
-                <br><br>
-                <label for="phone">Phone: </label>
-                <input type="tel" name="phone" pattern="[0-9]{10}" required>
-                <br><br>
-                <input type="submit">
-            </form>
-        </section>
+        <!--Hero Section-->
+        <div class="hero-section">
+            <div class="left">
+              <h2>Revitalize Your Clothes with Expert <strong style="color: rgb(5, 184, 255);">Laundry Services</strong></h2>
+              <p>From premium dry cleaning to swift wash and care, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+              <button>Book a Service Today!</button>
+            </div>
+            <div class="right">
+                <img src="washing_machine.png" alt="washing_machine" class="image">
+            </div>
+        </div>
     </main>
-    <hr>
-    <!--Footer Section-->
-    <footer>
-        <p>Contact us at <a href="#">info@laundrymart.com</a></p>
-    </footer>
 </body>
 </html>
